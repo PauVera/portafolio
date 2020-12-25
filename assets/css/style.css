@@ -96,4 +96,12 @@ footer{
     .foto-pau{
         width: 30%;
     }
+
+    .sobre-mi-p1:before{
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta harum, dolorum repudiandae possimus pariatur nisi voluptatibus porro blanditiis doloremque optio accusantium dolore eaque, dolores recusandae eligendi tempora odio maiores a laudantium sequi rerum. Ipsa, at? Assumenda veritatis facilis culpa quas maxime? Vitae eaque esse totam dolores ullam voluptatibus? Autem, quaerat! Aliquam officiis quo, maiores quidem voluptatum dolores, dignissimos repellat praesentium quisquam quia, asperiores temporibus rerum fugit dicta at cumque non facilis saepe cupiditate! Voluptatum ut iusto facilis reiciendis ipsam, quibusdam itaque eos sequi rem excepturi laudantium tempora doloribus accusamus quia consectetur tenetur ad, nesciunt debitis quo iure. Fuga, unde.";
+    }
+
+    .sobre-mi-p2:before{
+        content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, aspernatur optio tenetur libero assumenda fugit dicta ducimus exercitationem voluptatem voluptatum et reiciendis, mollitia facilis sapiente, beatae aperiam totam! Quod in voluptatem hic corporis aliquid, distinctio amet. Ipsum cupiditate sed voluptates nam cumque ducimus animi, nulla fugiat voluptatum assumenda vel corrupti!";
+    }
 }
