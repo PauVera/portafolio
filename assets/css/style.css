@@ -55,24 +55,34 @@ h1{
     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.h2-portafolio:before{
-    content: "Portafolio .";
-}
-
-.h2-sobremi:before{
-    content: "Sobre mi .";
-}
-
-.h2-contacto:before{
-    content: "Contacto ...";
-}
-
-h2{
+h2, h6{
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-size: 2rem;
     text-align: right;
     font-weight: bold;
+}
+
+.caja-galeria{
+    border-radius: 2px;
+}
+
+.btn-galeria{
+    border-style: solid;
+    border-color: #444444;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5%;
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+}
+
+.btn-galeria:hover{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: #ffffff;
+    color: #ffffff;
 }
 
 footer{
@@ -89,23 +99,7 @@ footer{
 }
 
 @media (min-width: 768px){
-    .h2-inicio:before{
-        content: "";
-    }
-
-    .h2-portafolio:before{
-        content: "";
-    }
-
-    .h2-sobremi:before{
-        content: "";
-    }
-
-    .h2-contacto:before{
-        content: "";
-    }
-
     .foto-pau{
-        width: 40%;
+        width: 30%;
     }
 }

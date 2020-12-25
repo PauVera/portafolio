@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
     <!-- Google Fonts: Poiret One, Roboto -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -16,7 +19,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!--Mi CSS-->
-    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/18d33ec6d5.js" crossorigin="anonymous"></script>
@@ -29,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-oscuro fixed-top">
         <div class="borde">
             <a class="navbar-brand" href="#inicio" data-slide-to="0" data-target="#carrusel">PV</a>
-        </div>        
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,42 +60,299 @@
     <section class="container mt-5 pt-5 cabecera" id="inicio">
         <div id="carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
+                <!-- SECCIÓN INICIO -->
                 <div class="carousel-item active">
                     <header class="encabezado my-3">
-                        <h1 class="py-2">Paula Vera</h1>
+                        <h1 class="py-2 text-left">Paula Vera</h1>
                         <div class="divider"></div>
                         <section>
-                            <img src="assets/img/foto_perfil.png" alt="foto Paula Vera" class="img-fluid pt-2 pb-4 foto-pau">
+                            <img src="assets/img/foto_perfil.png" alt="foto Paula Vera"
+                                class="img-fluid pt-2 pb-4 foto-pau">
                             <h3 class="font-weight-regular py-2">Desarrolladora Front-End Trainee</h3>
                             <h4 class="font-weight-light py-2">Emprendedora</h4>
                             <h5 class="font-weight-light py-2">Futura diseñadora UX/UI</h5>
                         </section>
                     </header>
                 </div>
+                <!-- FIN SECCIÓN INICIO -->
+
+                <!-- SECCIÓN PORTAFOLIO -->
                 <div class="carousel-item" id="portafolio">
-                    <h2 class="h2-portafolio"></h2>
+                    <h2 class="text-left pt-5 pb-2">Portafolio .</h2>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/weblibre.png" alt="Weblibre.net" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#weblibre">Ver más</button>
+                            </div>                            
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/santa-loren.png" alt="Pastelones & Concretos Santa Loren" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#santa-loren">Ver más</button>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/anfutel.png" alt="Anfutel" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#anfutel">Ver más</button>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/olivia-ros.png" alt="Olivia Ros" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#olivia-ros">Ver más</button>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/ricomida.png" alt="Ricomida" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#ricomida">Ver más</button>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/suricata.png" alt="Suricata" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#suricata">Ver más</button>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/iguanas.png" alt="Iguanas" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#iguanas">Ver más</button>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="bg-white caja-galeria">
+                                <img src="assets/img/cuppon.png" alt="Cuppon" class="img-fluid img-thumbnail">
+                                <button type="button" class="btn btn-galeria" data-toggle="modal" data-target="#cuppon">Ver más</button>
+                            </div> 
+                        </div>
+                    </div>
                 </div>
+                <!-- FIN SECCIÓN PORTAFOLIO -->
+
+                <!-- SECCIÓN SOBRE MI -->
                 <div class="carousel-item" id="sobremi">
-                    <h2 class="h2-sobremi"></h2>
+                    <h2 class="text-left">Sobre mi .</h2>
                 </div>
+                <!-- FIN SECCIÓN SOBRE MI -->
+
+                <!-- SECCIÓN CONTACTO -->
                 <div class="carousel-item" id="contacto">
-                    <h2 class="h2-contacto"></h2>
+                    <h2 class="text-left">Contacto .</h2>
                 </div>
+                <!-- FIN SECCIÓN CONTACTO -->
             </div>
         </div>
     </section>
     <!-- FIN DE CARRUSEL DE CONTENIDOS -->
 
+    <!-- SECCIÓN MODALES -->
+    <!-- Modal Weblibre.net-->
+    <div class="modal fade" id="weblibre" tabindex="-1" role="dialog" aria-labelledby="weblibre" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Weblibre.net</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/webLIBRE-logo.png" alt="Weblibre.net" class=" img-fluid my-3">
+                    <p>Página web para la agencia de desarrollo y diseño web Weblibre.net</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, Wordpress, DIVI</p>
+                    <p><strong>Estado:</strong> En construcción</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://www.pauli.weblibre.net/agencia">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Santa Loren-->
+    <div class="modal fade" id="santa-loren" tabindex="-1" role="dialog" aria-labelledby="santa-loren" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Santa Loren</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/santa-loren-logo.png" alt="Santa Loren" class=" img-fluid my-3">
+                    <p>E-commerce para Pastelones & Concretos Santa Loren</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, Wordpress, DIVI, WooCommerce</p>
+                    <p><strong>Estado:</strong> En construcción</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://www.pauli.weblibre.net/santa-loren">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Anfutel-->
+    <div class="modal fade" id="anfutel" tabindex="-1" role="dialog" aria-labelledby="anfutel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Anfutel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/anfutel-logo.png" alt="Anfutel" class=" img-fluid my-3">
+                    <p>Sitio Web para Anfutel (Asociación Nacional de funcionarios de Telecomunicaciones)</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, Wordpress, DIVI</p>
+                    <p><strong>Estado:</strong> En producción</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://https://www.anfutel.cl">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Olivia Ros-->
+    <div class="modal fade" id="olivia-ros" tabindex="-1" role="dialog" aria-labelledby="olivia-ros" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Olivia Ros</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/olivia-ros-logo.png" alt="Olivia Ros" class=" img-fluid my-3">
+                    <p>Proyecto transversal para el estudio de HTML5, CSS3, Bootstrap 4, JavaScript y JQuery</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, Bootstrap 4, JQuery</p>
+                    <p><strong>Estado:</strong> Terminada</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://pauvera.github.io/olivia-ros/">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Ricomida-->
+    <div class="modal fade" id="ricomida" tabindex="-1" role="dialog" aria-labelledby="ricomida" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Ricomida</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/ricomida-logo.png" alt="Ricomida" class=" img-fluid my-3">
+                    <p>Proyecto para el estudio de HTML5, CSS3, Bootstrap 4, JavaScript y JQuery</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, Bootstrap 4, JQuery</p>
+                    <p><strong>Estado:</strong> Terminada</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://pauvera.github.io/ricomida/">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Suricata-->
+    <div class="modal fade" id="suricata" tabindex="-1" role="dialog" aria-labelledby="suricata" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Suricata</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/suricata-logo.png" alt="Ricomida" class=" img-fluid my-3">
+                    <p>Proyecto para el estudio de HTML5, CSS3 y Bootstrap 4</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, Bootstrap 4</p>
+                    <p><strong>Estado:</strong> Terminada</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://pauvera.github.io/suricata/">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Iguanas-->
+    <div class="modal fade" id="iguanas" tabindex="-1" role="dialog" aria-labelledby="iguanas" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Iguanas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/iguanas-logo.png" alt="Ricomida" class=" img-fluid my-3">
+                    <p>Proyecto para el estudio de HTML5 y CSS3</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3</p>
+                    <p><strong>Estado:</strong> Terminada</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://pauvera.github.io/iguana/">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Cuppon-->
+    <div class="modal fade" id="cuppon" tabindex="-1" role="dialog" aria-labelledby="cuppon" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Cuppon</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/cuppon-logo.png" alt="Cuppon" class=" img-fluid my-3">
+                    <p>Proyecto para el estudio de HTML5, CSS3 y Bootstrap 4</p>
+                    <p><strong>Tecnologías:</strong> HTML5, CSS3, Bootstrap 4</p>
+                    <p><strong>Estado:</strong> Terminada</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-galeria mr-3" data-dismiss="modal">Cerrar</a>
+                    <a class="btn btn-galeria" href="https://pauvera.github.io/cuppon/">Ir al sitio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN SECCIÓN MODALES -->
+
     <!-- FOOTER -->
     <footer class="text-center bg-oscuro py-2">
-            <div class="py-2">
-                <i class="fab fa-github fa-2x px-4 rrss"></i>
-                <i class="fab fa-codepen fa-2x px-4 rrss"></i>
-                <i class="fab fa-instagram fa-2x px-4 rrss"></i>
-            </div>
-            <div>
-                <small>Paula Vera 2020 - Todos los derechos reservados</small> 
-            </div>       
+        <div class="py-2">
+            <i class="fab fa-github fa-2x px-4 rrss"></i>
+            <i class="fab fa-codepen fa-2x px-4 rrss"></i>
+            <i class="fab fa-instagram fa-2x px-4 rrss"></i>
+        </div>
+        <div>
+            <small>Paula Vera 2020 - Todos los derechos reservados</small>
+        </div>
     </footer>
     <!-- FIN FOOTER -->
 
