@@ -71,31 +71,25 @@ h2, h6{
     border-style: solid;
     border-color: #444444;
     border-width: 1px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #ffffff;
     border-radius: 5%;
     margin: 1rem 0;
     padding: 0.6rem 1rem;
-}
-
-.btn-galeria:hover{
-    background: #12c2e9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-color: #ffffff;
-    color: #ffffff;
 }
 
 footer{
     margin-top: 1.75rem;
 }
 
-.rrss:hover, .nav-link:hover{
+.rrss:hover, .nav-link:hover, .btn-galeria:hover{
     background: #12c2e9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    font-weight: bold;
+    border-style: none;
 }
 
 @media (min-width: 768px){
