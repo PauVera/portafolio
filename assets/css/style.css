@@ -81,6 +81,10 @@ footer{
     margin-top: 1.75rem;
 }
 
+footer a{
+    color: #eeeeee;
+}
+
 .rrss:hover, .nav-link:hover, .btn-galeria:hover{
     background: #12c2e9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
@@ -104,4 +108,5 @@ footer{
     .sobre-mi-p2:before{
         content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, aspernatur optio tenetur libero assumenda fugit dicta ducimus exercitationem voluptatem voluptatum et reiciendis, mollitia facilis sapiente, beatae aperiam totam! Quod in voluptatem hic corporis aliquid, distinctio amet. Ipsum cupiditate sed voluptates nam cumque ducimus animi, nulla fugiat voluptatum assumenda vel corrupti!";
     }
+
 }
