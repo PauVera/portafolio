@@ -101,12 +101,37 @@ footer a{
         width: 30%;
     }
 
+    .sobre-mi-h3{
+        padding: 2rem 0;
+    }
+
+    .sobre-mi-h3:before{
+        content: "¿Tu negocio aún no tiene un proyecto web?";
+    }
+
     .sobre-mi-p1:before{
-        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta harum, dolorum repudiandae possimus pariatur nisi voluptatibus porro blanditiis doloremque optio accusantium dolore eaque, dolores recusandae eligendi tempora odio maiores a laudantium sequi rerum. Ipsa, at? Assumenda veritatis facilis culpa quas maxime? Vitae eaque esse totam dolores ullam voluptatibus? Autem, quaerat! Aliquam officiis quo, maiores quidem voluptatum dolores, dignissimos repellat praesentium quisquam quia, asperiores temporibus rerum fugit dicta at cumque non facilis saepe cupiditate! Voluptatum ut iusto facilis reiciendis ipsam, quibusdam itaque eos sequi rem excepturi laudantium tempora doloribus accusamus quia consectetur tenetur ad, nesciunt debitis quo iure. Fuga, unde.";
+        content: "Si estás aquí es porque necesitas ampliar el alcance de tu negocio, es decir, vender más, tener más clientes. Sé que estás buscando soluciones para tener presencia en internet donde todo está pasando,  pero te has encontrado con un mar de información, opciones gratuitas y muchos gurúes asegurando el cielo y la tierra.";
     }
 
     .sobre-mi-p2:before{
-        content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, aspernatur optio tenetur libero assumenda fugit dicta ducimus exercitationem voluptatem voluptatum et reiciendis, mollitia facilis sapiente, beatae aperiam totam! Quod in voluptatem hic corporis aliquid, distinctio amet. Ipsum cupiditate sed voluptates nam cumque ducimus animi, nulla fugiat voluptatum assumenda vel corrupti!";
+        content: "Sé que no es fácil. Pero lo bueno es que estás aquí.";
+    }
+
+    .sobre-mi-p3:before{
+        content: "Hola, soy Paula Vera y me fascina el desarrollo web y cómo se pueden crear herramientas poderosas que ayuden a las personas a encontrar lo que necesitan. Me motiva crear proyectos que ayuden a mis clientes a ampliar y conectar con su mercado, ayudando así a la prosperidad de su negocio o empresa.";
+    }
+
+    .sobre-mi-p4:before{
+        content: "Me he desempeñado en muchos trabajos donde he visto que la tecnología entrega oportunidades para ofrecer experiencias increíbles para clientes y usuarios, pero no explotamos su potencial porque nos olvidamos que al final, todo debe pensarse por y para personas.";
+    }
+
+    .sobre-mi-p5:before{
+        content: "Por esto, a diferencia de todas las ofertas que vas a encontrar, yo entiendo que el desarrollo de un proyecto web no es lo realmente importante, sino en que éste es el medio para solucionar una necesidad. Este enfoque me permite conectar genuinamente con mis clientes para entregar un proyecto web a la medida.";
+    }
+
+    .sobre-mi-img{
+        margin-top: 2rem;
+        padding-top: 2rem;
     }
 
 }
