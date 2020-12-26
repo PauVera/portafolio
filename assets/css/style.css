@@ -110,7 +110,7 @@ footer a{
     }
 
     .sobre-mi-p1:before{
-        content: "Si estás aquí es porque necesitas ampliar el alcance de tu negocio, es decir, vender más, tener más clientes. Sé que estás buscando soluciones para tener presencia en internet donde todo está pasando,  pero te has encontrado con un mar de información, opciones gratuitas y muchos gurúes asegurando el cielo y la tierra.";
+        content: "Si estás aquí es porque necesitas ampliar el alcance de tu negocio, es decir, vender más, tener más clientes. Sé que estás buscando soluciones para tener presencia en internet donde todo está pasando,  pero te has encontrado con un mar de información, cursos de pago, e-books gratuitos y muchos gurúes asegurando el cielo y la tierra.";
     }
 
     .sobre-mi-p2:before{
@@ -122,11 +122,15 @@ footer a{
     }
 
     .sobre-mi-p4:before{
-        content: "Me he desempeñado en muchos trabajos donde he visto que la tecnología entrega oportunidades para ofrecer experiencias increíbles para clientes y usuarios, pero no explotamos su potencial porque nos olvidamos que al final, todo debe pensarse por y para personas.";
+        content: "He trabajado en muchos lugares donde la tecnología entrega oportunidades para ofrecer experiencias increíbles para clientes y usuarios, pero no explotamos su potencial porque nos olvidamos que al final, todo debe pensarse por, para y desde las personas.";
     }
 
     .sobre-mi-p5:before{
-        content: "Por esto, a diferencia de todas las ofertas que vas a encontrar, yo entiendo que el desarrollo de un proyecto web no es lo realmente importante, sino en que éste es el medio para solucionar una necesidad. Este enfoque me permite conectar genuinamente con mis clientes para entregar un proyecto web a la medida.";
+        content: "Por esto, a diferencia de todas las ofertas que vas a encontrar, yo defiendo que el desarrollo de un proyecto web no es lo realmente importante, sino que éste es el medio para solucionar una necesidad.";
+    }
+
+    .sobre-mi-p6:before{
+        content: "Este enfoque me permite conectar genuinamente con mis clientes para entregar juntos un proyecto web a la medida.";
     }
 
     .sobre-mi-img{
